@@ -19,7 +19,7 @@
 
 <body>
 
-    <nav>
+    <nav role="navigation" aria-label="Main navigation">
         <div class="nav-container container">
             <nav class="navbar navbar-expand-lg">
                 <div class="container-fluid">
@@ -51,102 +51,92 @@
         </div>
     </nav>
 
-    <section style="padding-top: 80.8px; background-color: #e4e1e1;">
-        <div class="a-sub-nav container">
-            <p><b>Our Products</b></p>
-            <div style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%23272727'/%3E%3C/svg%3E&#34;);"
-                aria-label="breadcrumb">
-                <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="index.html"><i class="fa-solid fa-house"
-                                style="font-size: 15px;"></i> Home</a></li>
-                    <li class="breadcrumb-item active" style="color: #0f5e6b;" aria-current="page"><i
-                            class="fa-solid fa-user" style="font-size: 15px;"></i> About us</li>
-                </ol>
+    <main role="main">
+        <section style="padding-top: 80.8px; background-color: #e4e1e1;">
+            <div class="a-sub-nav container">
+                <p><b>Our Products</b></p>
+                <div style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%23272727'/%3E%3C/svg%3E&#34;);"
+                    aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="index.html"><i class="fa-solid fa-house"
+                                    style="font-size: 15px;"></i> Home</a></li>
+                        <li class="breadcrumb-item active" style="color: #0f5e6b;" aria-current="page"><i
+                                class="fa-solid fa-user" style="font-size: 15px;"></i> About us</li>
+                    </ol>
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <div style="height: 50px"></div>
+        <div style="height: 50px"></div>
 
-    <section>
+        <section aria-label="Products catalog">
 
-        <div class="container">
-            <div class="a-products-card">
-                <div class="card" style="width: 24rem; margin-top: 150px;">
-                    <div class="div"></div>
-                    <img src="assets/img/t-shirt1.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Hoody</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the
-                            card's content.</p>
-                        <a href="#" class="card-btn btn btn-secondary">Buy Now</a>
+            <div class="container">
+                <div class="a-products-card">
+                    <div class="card" style="width: 24rem; margin-top: 150px;">
+                        <div class="div"></div>
+                        <img src="assets/img/t-shirt1.png" class="card-img-top" alt="Black hooded sweatshirt with front pocket">
+                        <div class="card-body">
+                            <h5 class="card-title" id="hoody1">Hoody</h5>
+                            <p class="card-text" aria-labelledby="hoody1">Comfortable cotton blend hooded sweatshirt perfect for casual wear.</p>
+                            <a href="#" class="card-btn btn btn-secondary" aria-label="Buy hoody now">Buy Now</a>
+                        </div>
                     </div>
-                </div>
 
-                <div class="card" style="width: 24rem; margin-top: 150px;">
-                    <div class="div"></div>
-                    <img src="assets/img/t-shirt2.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Polo T-shirt</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the
-                            card's content.</p>
-                        <a href="#" class="card-btn btn btn-secondary">Buy Now</a>
+                    <div class="card" style="width: 24rem; margin-top: 150px;">
+                        <div class="div"></div>
+                        <img src="assets/img/t-shirt2.png" class="card-img-top" alt="White polo t-shirt with collar">
+                        <div class="card-body">
+                            <h5 class="card-title" id="polo1">Polo T-shirt</h5>
+                            <p class="card-text" aria-labelledby="polo1">Classic white polo t-shirt with a comfortable fit and stylish collar.</p>
+                            <a href="#" class="card-btn btn btn-secondary" aria-label="Buy polo t-shirt now">Buy Now</a>
+                        </div>
                     </div>
-                </div>
 
-                <div class="card" style="width: 24rem; margin-top: 150px;">
-                    <div class="div"></div>
-                    <img src="assets/img/t-shirt3.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Round neck T-shirt</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the
-                            card's content.</p>
-                        <a href="#" class="card-btn btn btn-secondary">Buy Now</a>
+                    <div class="card" style="width: 24rem; margin-top: 150px;">
+                        <div class="div"></div>
+                        <img src="assets/img/t-shirt3.png" class="card-img-top" alt="Blue round neck t-shirt">
+                        <div class="card-body">
+                            <h5 class="card-title" id="roundneck1">Round neck T-shirt</h5>
+                            <p class="card-text" aria-labelledby="roundneck1">Soft and comfortable blue round neck t-shirt, perfect for everyday wear.</p>
+                            <a href="#" class="card-btn btn btn-secondary" aria-label="Buy round neck t-shirt now">Buy Now</a>
+                        </div>
                     </div>
-                </div>
-                <div class="card" style="width: 24rem; margin-top: 150px;">
-                    <div class="div"></div>
-                    <img src="assets/img/t-shirt1.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Hoody</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the
-                            card's content.</p>
-                        <a href="#" class="card-btn btn btn-secondary">Buy Now</a>
+                    <div class="card" style="width: 24rem; margin-top: 150px;">
+                        <div class="div"></div>
+                        <img src="assets/img/t-shirt1.png" class="card-img-top" alt="Black hooded sweatshirt with front pocket">
+                        <div class="card-body">
+                            <h5 class="card-title" id="hoody2">Hoody</h5>
+                            <p class="card-text" aria-labelledby="hoody2">Comfortable cotton blend hooded sweatshirt perfect for casual wear.</p>
+                            <a href="#" class="card-btn btn btn-secondary" aria-label="Buy hoody now">Buy Now</a>
+                        </div>
                     </div>
-                </div>
 
-                <div class="card" style="width: 24rem; margin-top: 150px;">
-                    <div class="div"></div>
-                    <img src="assets/img/t-shirt2.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Polo T-shirt</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the
-                            card's content.</p>
-                        <a href="#" class="card-btn btn btn-secondary">Buy Now</a>
+                    <div class="card" style="width: 24rem; margin-top: 150px;">
+                        <div class="div"></div>
+                        <img src="assets/img/t-shirt2.png" class="card-img-top" alt="White polo t-shirt with collar">
+                        <div class="card-body">
+                            <h5 class="card-title" id="polo2">Polo T-shirt</h5>
+                            <p class="card-text" aria-labelledby="polo2">Classic white polo t-shirt with a comfortable fit and stylish collar.</p>
+                            <a href="#" class="card-btn btn btn-secondary" aria-label="Buy polo t-shirt now">Buy Now</a>
+                        </div>
                     </div>
-                </div>
 
-                <div class="card" style="width: 24rem; margin-top: 150px;">
-                    <div class="div"></div>
-                    <img src="assets/img/t-shirt3.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Round neck T-shirt</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the
-                            card's content.</p>
-                        <a href="#" class="card-btn btn btn-secondary">Buy Now</a>
+                    <div class="card" style="width: 24rem; margin-top: 150px;">
+                        <div class="div"></div>
+                        <img src="assets/img/t-shirt3.png" class="card-img-top" alt="Blue round neck t-shirt">
+                        <div class="card-body">
+                            <h5 class="card-title" id="roundneck2">Round neck T-shirt</h5>
+                            <p class="card-text" aria-labelledby="roundneck2">Soft and comfortable blue round neck t-shirt, perfect for everyday wear.</p>
+                            <a href="#" class="card-btn btn btn-secondary" aria-label="Buy round neck t-shirt now">Buy Now</a>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+    </main>
 
-    <footer class="text-center text-lg-start">
+    <footer role="contentinfo" class="text-center text-lg-start">
         <div class="container">
             <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
                 <div class="me-5 d-none d-lg-block">

@@ -33,18 +33,18 @@
 
 <body>
 
-    <nav>
+    <nav role="navigation" aria-label="Main navigation">
         <div class="nav-container container">
             <nav class="navbar navbar-expand-lg">
                 <div class="container-fluid">
                     <!-- <a class="navbar-brand" href="#"><img style="width: 166px; height: 46px;" src="assets/svgs/Avani_logo-04.svg" alt="Brand Logo"></a> -->
-                    <a class="navbar-brand" href="#"
+                    <a class="navbar-brand" href="#" aria-label="Home"
                         style="display: flex; align-items: center; justify-content: center;">
                         <h1>LOGO</h1>
                     </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
+                        aria-expanded="false" aria-label="Toggle navigation menu">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -68,306 +68,308 @@
         </div>
     </nav>
 
-    <header>
-        <div style="padding-top: 20px;" class="container">
-            <section class="py-3 py-lg-5 py-xl-8">
-                <div class="container overflow-hidden">
-                    <div class="row gy-5 gy-lg-0 align-items-lg-center justify-content-lg-between">
-                        <div class="col-12 col-lg-6 order-1 order-lg-0">
-                            <h2 class="display-3 fw-bold mb-3">DISCOVER THE FUTURE OF FASHION</h2>
-                            <p id="main-p" class="fs-4 mb-5">
-                                Discover our exclusive collection where tradition meets innovation. Each piece is
-                                crafted with precision, reflecting a perfect blend of classic designs and contemporary
-                                trends. Whether you're stepping into the office or out for an evening soirée, our
-                                fashion pieces are designed to make you stand out with confidence and grace.
-                            </p>
-                            <div class="gap-2 d-sm-flex">
-                                <button onclick="gotoProducts()" type="button"
-                                    class="a-btn-main btn btn-secondary bsb-btn-2xl">
-                                    Explore Our Collection
-                                </button>
+    <main role="main">
+        <header>
+            <div style="padding-top: 20px;" class="container">
+                <section class="py-3 py-lg-5 py-xl-8">
+                    <div class="container overflow-hidden">
+                        <div class="row gy-5 gy-lg-0 align-items-lg-center justify-content-lg-between">
+                            <div class="col-12 col-lg-6 order-1 order-lg-0">
+                                <h2 class="display-3 fw-bold mb-3">DISCOVER THE FUTURE OF FASHION</h2>
+                                <p id="main-p" class="fs-4 mb-5">
+                                    Discover our exclusive collection where tradition meets innovation. Each piece is
+                                    crafted with precision, reflecting a perfect blend of classic designs and contemporary
+                                    trends. Whether you're stepping into the office or out for an evening soirée, our
+                                    fashion pieces are designed to make you stand out with confidence and grace.
+                                </p>
+                                <div class="gap-2 d-sm-flex">
+                                    <button onclick="gotoProducts()" type="button"
+                                        class="a-btn-main btn btn-secondary bsb-btn-2xl">
+                                        Explore Our Collection
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-5 text-center">
+                                <div class="position-relative">
+                                    <img class="img-fluid position-relative z-2" loading="lazy"
+                                        src="assets/img/main-image.png" alt="Model wearing our latest fashion collection">
+                                </div>
                             </div>
                         </div>
-                        <div class="col-12 col-lg-5 text-center">
-                            <div class="position-relative">
-                                <img class="img-fluid position-relative z-2" loading="lazy"
-                                    src="assets/img/main-image.png" alt="Fashion t-shirt image">
+                    </div>
+                </section>
+            </div>
+        </header>
+
+        <section>
+            <div class="container">
+                <div class="feat bg-gray pt-5 pb-5">
+                    <div class="section-head">
+                        <h2>Why Choose<span style="color: #D98145;"> Us?</span></h2>
+                        <p class="txt-center">
+                            With over a decade of experience, we bring you the latest trends combined with timeless style.
+                        </p>
+
+                        <div style="padding-top: 40px; padding-bottom: 50px;" class="row align-items-center">
+                            <div class="col-sm-6 col-lg-4 mb-2-9 mb-sm-0">
+                                <div class="pr-md-3">
+                                    <div class="a-parent-icon text-center text-sm-right mb-2-9">
+                                        <div class="mb-4">
+                                            <div class="a-icon"><i class="exclusive-icon"></i></i></div>
+                                        </div>
+                                        <h4 class="sub-info">Exclusive Designs</h4>
+                                        <p class="display-30 mb-0">Stand out with our unique and exclusive designs that
+                                            define your personal style.</p>
+                                    </div>
+                                    <div class="a-parent-icon text-center text-sm-right">
+                                        <div class="mb-4">
+                                            <div class="a-icon"><i class="fa-solid fa-recycle"></i></i></div>
+                                        </div>
+                                        <h4 class="sub-info">Sustainable Fashion</h4>
+                                        <p class="display-30 mb-0">We are committed to sustainability, using eco-friendly
+                                            materials without compromising on quality.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 d-none d-lg-block">
+                                <div class="why-choose-center-image">
+                                    <img style="height: 450px; width: 450px;" src="assets/img/why_choose us.png"
+                                        alt="why choose us image" class="rounded-circle">
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-lg-4">
+                                <div class="pl-md-3">
+                                    <div class="a-parent-icon text-center text-sm-left mb-2-9">
+                                        <div class="mb-4">
+                                            <div class="a-icon"><i class="fa-solid fa-users-viewfinder"></i></i></div>
+                                        </div>
+                                        <h4 class="sub-info">Customer-Centric Approach</h4>
+                                        <p class="display-30 mb-0">Our fashion experts are always available to help you find
+                                            the perfect outfit.</p>
+                                    </div>
+
+                                    <div class="a-parent-icon text-center text-sm-left">
+                                        <div class="mb-4">
+                                            <div class="a-icon"><i class="fa-solid fa-shirt"></i></i></div>
+                                        </div>
+                                        <h4 class="sub-info">Local Craftsmanship</h4>
+                                        <p class="display-30 mb-0">Our products are proudly made in India, using locally
+                                            sourced materials and traditional techniques.</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </section>
-        </div>
-    </header>
+            </div>
+        </section>
 
-    <section>
-        <div class="container">
-            <div class="feat bg-gray pt-5 pb-5">
-                <div class="section-head">
-                    <h2>Why Choose<span style="color: #D98145;"> Us?</span></h2>
-                    <p class="txt-center">
-                        With over a decade of experience, we bring you the latest trends combined with timeless style.
+
+
+        <section id="Products">
+            <div class="container">
+                <div style="padding-top: 50px; padding-bottom: 150px;" class="section-head">
+                    <h2>Our Fashion<span style="color: #D98145;"> Products</span></h2>
+                    <p style="text-align: center;" class="txt-center">
+                        Explore our wide range of fashion products, each crafted with care and designed to impress.
                     </p>
-
-                    <div style="padding-top: 40px; padding-bottom: 50px;" class="row align-items-center">
-                        <div class="col-sm-6 col-lg-4 mb-2-9 mb-sm-0">
-                            <div class="pr-md-3">
-                                <div class="a-parent-icon text-center text-sm-right mb-2-9">
-                                    <div class="mb-4">
-                                        <div class="a-icon"><i class="exclusive-icon"></i></i></div>
-                                    </div>
-                                    <h4 class="sub-info">Exclusive Designs</h4>
-                                    <p class="display-30 mb-0">Stand out with our unique and exclusive designs that
-                                        define your personal style.</p>
-                                </div>
-                                <div class="a-parent-icon text-center text-sm-right">
-                                    <div class="mb-4">
-                                        <div class="a-icon"><i class="fa-solid fa-recycle"></i></i></div>
-                                    </div>
-                                    <h4 class="sub-info">Sustainable Fashion</h4>
-                                    <p class="display-30 mb-0">We are committed to sustainability, using eco-friendly
-                                        materials without compromising on quality.</p>
-                                </div>
-                            </div>
+                </div>
+                <div class="a-products-card">
+                    <div class="card" style="width: 24rem;">
+                        <div class="div"></div>
+                        <img src="assets/img/t-shirt1.png" class="card-img-top" alt="Hoody">
+                        <div class="card-body">
+                            <h5 class="card-title">Hoody</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                                the
+                                card's content.</p>
+                            <a href="#" class="card-btn btn btn-secondary">Buy Now</a>
                         </div>
-                        <div class="col-lg-4 d-none d-lg-block">
-                            <div class="why-choose-center-image">
-                                <img style="height: 450px; width: 450px;" src="assets/img/why_choose us.png"
-                                    alt="why choose us image" class="rounded-circle">
-                            </div>
-                        </div>
-                        <div class="col-sm-6 col-lg-4">
-                            <div class="pl-md-3">
-                                <div class="a-parent-icon text-center text-sm-left mb-2-9">
-                                    <div class="mb-4">
-                                        <div class="a-icon"><i class="fa-solid fa-users-viewfinder"></i></i></div>
-                                    </div>
-                                    <h4 class="sub-info">Customer-Centric Approach</h4>
-                                    <p class="display-30 mb-0">Our fashion experts are always available to help you find
-                                        the perfect outfit.</p>
-                                </div>
+                    </div>
 
-                                <div class="a-parent-icon text-center text-sm-left">
-                                    <div class="mb-4">
-                                        <div class="a-icon"><i class="fa-solid fa-shirt"></i></i></div>
+                    <div class="card" style="width: 24rem;">
+                        <div class="div"></div>
+                        <img src="assets/img/t-shirt2.png" class="card-img-top" alt="Polo T-shirt">
+                        <div class="card-body">
+                            <h5 class="card-title">Polo T-shirt</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                                the
+                                card's content.</p>
+                            <a href="#" class="card-btn btn btn-secondary">Buy Now</a>
+                        </div>
+                    </div>
+
+                    <div class="card" style="width: 24rem;">
+                        <div class="div"></div>
+                        <img src="assets/img/t-shirt3.png" class="card-img-top" alt="Round neck T-shirt">
+                        <div class="card-body">
+                            <h5 class="card-title">Round neck T-shirt</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                                the
+                                card's content.</p>
+                            <a href="#" class="card-btn btn btn-secondary">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style="margin-top: 20px;" class="container d-flex align-items-center justify-content-center">
+                <button onclick="gotoProducts()" type="button" class=" a-card-end-btn btn btn-secondary">View more
+                    <i class="fa-solid fa-angles-right"></i>
+                </button>
+            </div>
+        </section>
+
+        <section>
+            <div class="container">
+                <div class="container">
+                    <div style="padding-top: 100px;" class="section-head">
+                        <h2>What Our <span style="color: #D98145;">Customers</span> Say</h2>
+                        <p class="txt-center">
+                            Here's what some of our customers have to say about us.
+                        </p>
+                    </div>
+                    <div class="row">
+                        <div style="max-width: 1000px;" class="col-md-12">
+                            <div id="testimonial-slider" class="owl-carousel">
+                                <div class="testimonial">
+                                    <div class="pic">
+                                        <img id="avatar-img" src="assets/img/Avatar2.jpg" alt="Customer Rajesh Kumar">
                                     </div>
-                                    <h4 class="sub-info">Local Craftsmanship</h4>
-                                    <p class="display-30 mb-0">Our products are proudly made in India, using locally
-                                        sourced materials and traditional techniques.</p>
+                                    <div class="testimonial-profile">
+                                        <h3 class="title">Rajesh Kumar</h3>
+                                        <span class="post">New Delhi
+                                        </span>
+                                    </div>
+                                    <p class="description">
+                                        The quality of the clothes from FASHION WEBSITE is unmatched. Every piece feels like it
+                                        was made just for me. The attention to detail and the traditional touch make every
+                                        purchase a delight. Highly recommended!
+                                    </p>
+                                </div>
+                                <div class="testimonial">
+                                    <div class="pic">
+                                        <img id="avatar-img" src="assets/img/Avatar1.jpg" alt="Customer Priya Sharma">
+                                    </div>
+                                    <div class="testimonial-profile">
+                                        <h3 class="title">Priya Sharma</h3>
+                                        <span class="post">Mumbai</span>
+                                    </div>
+                                    <p class="description">
+                                        I absolutely love the collection! The designs are so unique and the fabric is
+                                        incredibly comfortable. I've received so many compliments whenever I wear Avni
+                                        fashion. It's now my go-to brand for any occasion.
+                                    </p>
+                                </div>
+                                <div class="testimonial">
+                                    <div class="pic">
+                                        <img id="avatar-img" src="assets/img/Avatar3.jpg" alt="Customer Rahul Kumar">
+                                    </div>
+                                    <div class="testimonial-profile">
+                                        <h3 class="title">Rahul Kumar</h3>
+                                        <span class="post">Bangalore</span>
+                                    </div>
+                                    <p class="description">
+                                        From the moment I placed my order, I knew I was in good hands. The customer service
+                                        was excellent, and the delivery was prompt. The outfits were even more stunning in
+                                        person. Thank you, FASHION WEBSITE
+                                    </p>
+                                </div>
+                                <div class="testimonial">
+                                    <div class="pic">
+                                        <img id="avatar-img" src="assets/img/Avatar4.jpg" alt="Customer Riya Samal">
+                                    </div>
+                                    <div class="testimonial-profile">
+                                        <h3 class="title">Riya Samal</h3>
+                                        <span class="post">Pune</span>
+                                    </div>
+                                    <p class="description">
+                                        The experience with [Your Brand] has been nothing short of fantastic. The clothes
+                                        are beautiful, and the fit is perfect. I particularly appreciate the sustainable
+                                        practices they follow. It's fashion with a conscience!
+                                    </p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-
-
-    <section id="Products">
-        <div class="container">
-            <div style="padding-top: 50px; padding-bottom: 150px;" class="section-head">
-                <h2>Our Fashion<span style="color: #D98145;"> Products</span></h2>
-                <p style="text-align: center;" class="txt-center">
-                    Explore our wide range of fashion products, each crafted with care and designed to impress.
-                </p>
-            </div>
-            <div class="a-products-card">
-                <div class="card" style="width: 24rem;">
-                    <div class="div"></div>
-                    <img src="assets/img/t-shirt1.png" class="card-img-top" alt="Hoody">
-                    <div class="card-body">
-                        <h5 class="card-title">Hoody</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the
-                            card's content.</p>
-                        <a href="#" class="card-btn btn btn-secondary">Buy Now</a>
-                    </div>
-                </div>
-
-                <div class="card" style="width: 24rem;">
-                    <div class="div"></div>
-                    <img src="assets/img/t-shirt2.png" class="card-img-top" alt="Polo T-shirt">
-                    <div class="card-body">
-                        <h5 class="card-title">Polo T-shirt</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the
-                            card's content.</p>
-                        <a href="#" class="card-btn btn btn-secondary">Buy Now</a>
-                    </div>
-                </div>
-
-                <div class="card" style="width: 24rem;">
-                    <div class="div"></div>
-                    <img src="assets/img/t-shirt3.png" class="card-img-top" alt="Round neck T-shirt">
-                    <div class="card-body">
-                        <h5 class="card-title">Round neck T-shirt</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the
-                            card's content.</p>
-                        <a href="#" class="card-btn btn btn-secondary">Buy Now</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div style="margin-top: 20px;" class="container d-flex align-items-center justify-content-center">
-            <button onclick="gotoProducts()" type="button" class=" a-card-end-btn btn btn-secondary">View more
-                <i class="fa-solid fa-angles-right"></i>
-            </button>
-        </div>
-    </section>
-
-    <section>
-        <div class="container">
+        <section>
             <div class="container">
                 <div style="padding-top: 100px;" class="section-head">
-                    <h2>What Our <span style="color: #D98145;">Customers</span> Say</h2>
+                    <h2>Get a Custom<span style="color: #D98145;"> Quote</span></h2>
                     <p class="txt-center">
-                        Here's what some of our customers have to say about us.
+                        Want something custom? Let us know your requirements, and we'll get back to you with a tailored
+                        quote.
                     </p>
                 </div>
-                <div class="row">
-                    <div style="max-width: 1000px;" class="col-md-12">
-                        <div id="testimonial-slider" class="owl-carousel">
-                            <div class="testimonial">
-                                <div class="pic">
-                                    <img id="avatar-img" src="assets/img/Avatar2.jpg">
-                                </div>
-                                <div class="testimonial-profile">
-                                    <h3 class="title">Rajesh Kumar</h3>
-                                    <span class="post">New Delhi
-                                    </span>
-                                </div>
-                                <p class="description">
-                                    The quality of the clothes from FASHION WEBSITE is unmatched. Every piece feels like it
-                                    was made just for me. The attention to detail and the traditional touch make every
-                                    purchase a delight. Highly recommended!
-                                </p>
-                            </div>
-                            <div class="testimonial">
-                                <div class="pic">
-                                    <img id="avatar-img" src="assets/img/Avatar1.jpg">
-                                </div>
-                                <div class="testimonial-profile">
-                                    <h3 class="title">Priya Sharma</h3>
-                                    <span class="post">Mumbai</span>
-                                </div>
-                                <p class="description">
-                                    I absolutely love the collection! The designs are so unique and the fabric is
-                                    incredibly comfortable. I've received so many compliments whenever I wear Avni
-                                    fashion. It's now my go-to brand for any occasion.
-                                </p>
-                            </div>
-                            <div class="testimonial">
-                                <div class="pic">
-                                    <img id="avatar-img" src="assets/img/Avatar3.jpg">
-                                </div>
-                                <div class="testimonial-profile">
-                                    <h3 class="title">Rahul Kumar</h3>
-                                    <span class="post">Bangalore</span>
-                                </div>
-                                <p class="description">
-                                    From the moment I placed my order, I knew I was in good hands. The customer service
-                                    was excellent, and the delivery was prompt. The outfits were even more stunning in
-                                    person. Thank you, FASHION WEBSITE
-                                </p>
-                            </div>
-                            <div class="testimonial">
-                                <div class="pic">
-                                    <img id="avatar-img" src="assets/img/Avatar4.jpg">
-                                </div>
-                                <div class="testimonial-profile">
-                                    <h3 class="title">Riya Samal</h3>
-                                    <span class="post">Pune</span>
-                                </div>
-                                <p class="description">
-                                    The experience with [Your Brand] has been nothing short of fantastic. The clothes
-                                    are beautiful, and the fit is perfect. I particularly appreciate the sustainable
-                                    practices they follow. It's fashion with a conscience!
-                                </p>
-                            </div>
+            </div>
+            <div class="a-form-end container">
+                <div id="quote-img-div" class="a-form-img">
+                    <div class="a-img-parent-form col-12 col-lg-5 text-center">
+                        <img id="quote-img" class="img-fluid position-relative z-2" loading="lazy"
+                            src="assets/img/t-shirt1.png" alt="Quote section image">
+                    </div>
+                </div>
+                <form action="assets/PHP/quote.php" method="POST" id="a-quote-form" style="width: 26rem;" aria-label="Request a quote">
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control" id="name" name="name" placeholder="Name" required aria-required="true" aria-label="Your name">
+                        <label for="name">Name</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="email" class="form-control" id="email" name="email" placeholder="Email address"
+                            required>
+                        <label for="email">Email address</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="tel" class="form-control" id="phone" name="phone" placeholder="Phone number" required>
+                        <label for="phone">Phone number</label>
+                    </div>
+                    <div>
+                        <div class="form mb-3">
+                            <select class="form-select" id="option1" name="option1" required>
+                                <option value="" selected disabled>Select Your Type</option>
+                                <option value="Personal">Personal</option>
+                                <option value="Corporate">Corporate</option>
+                            </select>
+                        </div>
+                        <div class="form mb-3">
+                            <select class="form-select" id="productType" name="option2" required>
+                                <option value="" selected disabled>Select Product Type</option>
+                                <option value="TShirts">TShirts</option>
+                                <option value="Hoodies">Hoodies</option>
+                                <option value="RoundNeck">Round neck T-shirt</option>
+                            </select>
                         </div>
                     </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section>
-        <div class="container">
-            <div style="padding-top: 100px;" class="section-head">
-                <h2>Get a Custom<span style="color: #D98145;"> Quote</span></h2>
-                <p class="txt-center">
-                    Want something custom? Let us know your requirements, and we'll get back to you with a tailored
-                    quote.
-                </p>
-            </div>
-        </div>
-        <div class="a-form-end container">
-            <div id="quote-img-div" class="a-form-img">
-                <div class="a-img-parent-form col-12 col-lg-5 text-center">
-                    <img id="quote-img" class="img-fluid position-relative z-2" loading="lazy"
-                        src="assets/img/t-shirt1.png" alt="Quote section image">
-                </div>
-            </div>
-            <form action="assets/PHP/quote.php" method="POST" id="a-quote-form" style="width: 26rem;">
-                <div class="form-floating mb-3">
-                    <input type="text" class="form-control" id="name" name="name" placeholder="Name" required>
-                    <label for="name">Name</label>
-                </div>
-                <div class="form-floating mb-3">
-                    <input type="email" class="form-control" id="email" name="email" placeholder="Email address"
-                        required>
-                    <label for="email">Email address</label>
-                </div>
-                <div class="form-floating mb-3">
-                    <input type="tel" class="form-control" id="phone" name="phone" placeholder="Phone number" required>
-                    <label for="phone">Phone number</label>
-                </div>
-                <div>
-                    <div class="form mb-3">
-                        <select class="form-select" id="option1" name="option1" required>
-                            <option value="" selected disabled>Select Your Type</option>
-                            <option value="Personal">Personal</option>
-                            <option value="Corporate">Corporate</option>
-                        </select>
+                    <div class="form-floating mb-3">
+                        <input type="number" class="form-control" id="quantity" name="quantity" placeholder="Phone number"
+                            required min="0">
+                        <label for="quantity">Product Quantity</label>
                     </div>
-                    <div class="form mb-3">
-                        <select class="form-select" id="productType" name="option2" required>
-                            <option value="" selected disabled>Select Product Type</option>
-                            <option value="TShirts">TShirts</option>
-                            <option value="Hoodies">Hoodies</option>
-                            <option value="RoundNeck">Round neck T-shirt</option>
-                        </select>
+                    <div class="form-floating mb-3">
+                        <textarea class="form-control" name="message" placeholder="Message" id="message"
+                            style="height: 100px; max-height: 200px;"></textarea>
+                        <label for="message">Message</label>
                     </div>
-                </div>
-                <div class="form-floating mb-3">
-                    <input type="number" class="form-control" id="quantity" name="quantity" placeholder="Phone number"
-                        required min="0">
-                    <label for="quantity">Product Quantity</label>
-                </div>
-                <div class="form-floating mb-3">
-                    <textarea class="form-control" name="message" placeholder="Message" id="message"
-                        style="height: 100px; max-height: 200px;"></textarea>
-                    <label for="message">Message</label>
-                </div>
 
-                <div>
-                    <p id="index-form-sucess">Success! Your request has been received, and we'll be in touch shortly.
-                    </p>
-                </div>
-                <p id="index-form-failed">Something went wrong. Please try again.</p>
+                    <div>
+                        <p id="index-form-sucess">Success! Your request has been received, and we'll be in touch shortly.
+                        </p>
+                    </div>
+                    <p id="index-form-failed">Something went wrong. Please try again.</p>
 
-                <div class="a-formp-btn">
-                    <button style="background-color: #0f5e6b;" type="submit"
-                        class="btn btn-secondary btn-block mb-4">Get quote</button>
-                </div>
-            </form>
-        </div>
-    </section>
+                    <div class="a-formp-btn">
+                        <button style="background-color: #0f5e6b;" type="submit"
+                            class="btn btn-secondary btn-block mb-4">Get quote</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
 
-    <footer class="text-center text-lg-start">
+    <footer role="contentinfo" class="text-center text-lg-start">
         <div class="container">
             <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
                 <div class="me-5 d-none d-lg-block">

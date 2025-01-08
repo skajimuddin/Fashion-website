@@ -24,7 +24,7 @@
 </head>
 
 <body>
-    <nav>
+    <nav role="navigation" aria-label="Main navigation">
         <div class="nav-container container">
             <nav class="navbar navbar-expand-lg">
                 <div class="container-fluid">
@@ -56,75 +56,76 @@
         </div>
     </nav>
 
-    <section style="padding-top: 80.8px; background-color: #e4e1e1;">
-        <div class="a-sub-nav container">
-            <p><b>Contact Us</b></p>
-            <div style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%23272727'/%3E%3C/svg%3E&#34;);"
-                aria-label="breadcrumb">
-                <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="index.html"><i class="fa-solid fa-house"
-                                style="font-size: 15px;"></i> Home</a></li>
-                    <li class="breadcrumb-item active" style="color: #0f5e6b;" aria-current="page"><i
-                            class="fa-solid fa-user" style="font-size: 15px;"></i> About us</li>
-                </ol>
+    <main role="main">
+        <section style="padding-top: 80.8px; background-color: #e4e1e1;">
+            <div class="a-sub-nav container">
+                <p><b>Contact Us</b></p>
+                <div style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%23272727'/%3E%3C/svg%3E&#34;);"
+                    aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="index.html"><i class="fa-solid fa-house"
+                                    style="font-size: 15px;"></i> Home</a></li>
+                        <li class="breadcrumb-item active" style="color: #0f5e6b;" aria-current="page"><i
+                                class="fa-solid fa-user" style="font-size: 15px;"></i> About us</li>
+                    </ol>
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
 
 
 
-    <section class="text-center">
-        <div class="container">
+        <section class="text-center">
             <div class="container">
-                <div style="padding-top: 40px;" class="section-head">
-                    <h2><span style="color: #0f5e6b;">Contact</span> us</h2>
-                    <p style="padding-bottom: 40px;" class="txt-center">
-                        We'd love to hear from you! Whether you have a question about our products, need assistance, or
-                        just want to give feedback, we're here to help.
-                    </p>
-                </div>
-            </div>
-
-            <div class="contact-us-flex row justify-content-around">
-                <div class="col-lg-5 order-2 order-lg-1">
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15138.2518604759!2d73.82194212698363!3d18.458141922763872!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2953ac44c7ddf%3A0x737faa6b90930b51!2sAmbegaon%20Budruk%2C%20Pune%2C%20Maharashtra%20411046!5e0!3m2!1sen!2sin!4v1724310156685!5m2!1sen!2sin"
-                        width="100%" height="550px" style="border:0;" loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade" id="map-iframe"></iframe>
+                <div class="container">
+                    <div style="padding-top: 40px;" class="section-head">
+                        <h2><span style="color: #0f5e6b;">Contact</span> us</h2>
+                        <p style="padding-bottom: 40px;" class="txt-center">
+                            We'd love to hear from you! Whether you have a question about our products, need assistance, or
+                            just want to give feedback, we're here to help.
+                        </p>
+                    </div>
                 </div>
 
-                <form id="a-about-form" style="width: 26rem;" class="order-1 order-lg-2">
-                    <div class="form-floating mb-3">
-                        <input type="name" class="form-control" id="floatingInput" placeholder="Name" required>
-                        <label for="floatingInput">Name</label>
-                    </div>
-                    <div class="form-floating mb-3">
-                        <input type="email" class="form-control" id="floatingInput" placeholder="Email address"
-                            required>
-                        <label for="floatingInput">Email address</label>
-                    </div>
-                    <div class="form-floating mb-3">
-                        <input type="text" class="form-control" id="floatingInput" placeholder="Subject">
-                        <label for="floatingInput">Subject</label>
-                    </div>
-                    <div class="form-floating mb-3">
-                        <textarea class="form-control" placeholder="Message" id="floatingTextarea"
-                            style="height: 300px; max-height: 400px;" required></textarea>
-                        <label for="floatingTextarea">Message</label>
+                <div class="contact-us-flex row justify-content-around">
+                    <div class="col-lg-5 order-2 order-lg-1">
+                        <iframe title="Our location on Google Maps"
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15138.2518604759!2d73.82194212698363!3d18.458141922763872!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2953ac44c7ddf%3A0x737faa6b90930b51!2sAmbegaon%20Budruk%2C%20Pune%2C%20Maharashtra%20411046!5e0!3m2!1sen!2sin!4v1724310156685!5m2!1sen!2sin"
+                            width="100%" height="550px" style="border:0;" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade" id="map-iframe"></iframe>
                     </div>
 
-                    <div class="a-formp-btn">
-                        <button style="background-color: #0f5e6b;" type="submit"
-                            class="btn btn-secondary btn-block mb-4">Send</button>
-                    </div>
-                </form>
+                    <form id="a-about-form" style="width: 26rem;" class="order-1 order-lg-2" aria-label="Contact form">
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control" id="name" placeholder="Name" required aria-required="true" aria-label="Your name">
+                            <label for="name">Name</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input type="email" class="form-control" id="email" placeholder="Email address" required aria-required="true" aria-label="Your email address">
+                            <label for="email">Email address</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control" id="floatingInput" placeholder="Subject">
+                            <label for="floatingInput">Subject</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <textarea class="form-control" placeholder="Message" id="floatingTextarea"
+                                style="height: 300px; max-height: 400px;" required></textarea>
+                            <label for="floatingTextarea">Message</label>
+                        </div>
+
+                        <div class="a-formp-btn">
+                            <button style="background-color: #0f5e6b;" type="submit"
+                                class="btn btn-secondary btn-block mb-4">Send</button>
+                        </div>
+                    </form>
+                </div>
+
             </div>
+        </section>
+    </main>
 
-        </div>
-    </section>
 
-
-    <footer class="text-center text-lg-start">
+    <footer role="contentinfo" class="text-center text-lg-start">
         <div class="container">
             <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
                 <div class="me-5 d-none d-lg-block">
