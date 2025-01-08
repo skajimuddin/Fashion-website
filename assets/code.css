@@ -1,0 +1,131 @@
+.section-head h2 {
+    position: relative;
+    padding: 0;
+    color: #D98145;
+    line-height: 1;
+    letter-spacing: 0.3px;
+    font-size: 44px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: none;
+    margin-bottom: 30px;
+}
+
+.section-head h2:before {
+    content: '';
+    width: 60px;
+    height: 3px;
+    background: #D98145;
+    position: absolute;
+    left: 0px;
+    bottom: -10px;
+    right: 0;
+    margin: 0 auto;
+}
+
+.section-head h2 span {
+    font-weight: 700;
+    padding-bottom: 5px;
+    color: #2f2f2f
+}
+
+/* reviews */
+
+.testimonial {
+    margin: 0 20px 50px;
+}
+
+.testimonial .pic {
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin: 50px 15px 15px 0;
+}
+
+.testimonial .pic img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.testimonial .testimonial-profile {
+    display: inline-block;
+    position: relative;
+    top: 15px;
+}
+
+.testimonial .title {
+    display: block;
+    font-size: 20px;
+    font-weight: 600;
+    color: #0F5E6B;
+    text-transform: capitalize;
+    margin: 0 0 7px 0;
+}
+
+.testimonial .post {
+    display: block;
+    font-size: 14px;
+    color: #5d7aa7;
+}
+
+.testimonial .description {
+    padding: 20px 22px;
+    background: #D98145;
+    font-size: 15px;
+    color: #fff;
+    line-height: 25px;
+    margin: 0;
+    position: relative;
+    border-radius: 10px;
+    margin-left: 15px;
+}
+
+.testimonial .description:before,
+.testimonial .description:after {
+    content: "";
+    border-width: 18px 0 0 18px;
+    border-style: solid;
+    border-color: transparent #D98145 transparent;
+    position: absolute;
+    top: -8px;
+    transform: rotate(135deg);
+    left: 1;
+}
+
+.testimonial .description:after {
+    border-width: 18px 18px 0 0;
+    left: auto;
+    right: 0;
+    display: none;
+}
+
+.owl-theme .owl-controls {
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.owl-theme .owl-controls .owl-buttons div {
+    opacity: 0.8;
+    background: #fff;
+}
+
+.owl-prev:before,
+.owl-next:before {
+    content: "\f053";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 20px;
+    color: #1f487e;
+}
+
+.owl-next:before {
+    content: "\f054";
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
